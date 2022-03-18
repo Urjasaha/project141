@@ -1,0 +1,56 @@
+body
+{
+   background-size: cover;
+}
+
+h2 {
+    color:rgb(199, 218, 253);
+    font-size:40px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#instructions {
+    font-size: 20px;
+}
+
+#canvass {
+    position:center;
+    box-shadow: 7px 5px 7px rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-top: 180px;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+}
+
+.heading h3 {
+    display: inline;
+}
+
+.heading button {
+    float: right;
+    border: 1px solid white;
+}
+
+#start, #status, #restart {
+    font-size: 22px
+}
+
+.modal-body {
+    text-align: left;
+    font-size: 22px;
+}
+
+#footer {
+    line-height: 2;
+    margin: 0;
+    bottom: 0;
+    background-color: cyan;
+}
+
+.modal-dialog {
+    width: 70%;
+}
